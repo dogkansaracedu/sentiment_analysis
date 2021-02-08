@@ -29,7 +29,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 vect = TfidfVectorizer(min_df=5, ngram_range=(1, 2)).fit(X)
 
 # save vectorizer to disk
-pickle.dump(vect, open('vector.pickel', 'wb'))
+pickle.dump(vect, open('vector.pickle', 'wb'))
 
 X_vectorized = vect.transform(X)
 model = LogisticRegression()
