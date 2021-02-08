@@ -12,7 +12,7 @@ CORS(app)
 # load the model
 loaded_model = pickle.load(open('/home/stajyer1/PycharmProjects/pythonProject/final_model.sav', 'rb'))
 # load the vectorizer
-loaded_vectorizer = pickle.load(open('/home/stajyer1/PycharmProjects/pythonProject/vector.pickel', 'rb'))
+loaded_vectorizer = pickle.load(open('/home/stajyer1/PycharmProjects/pythonProject/vector.pickle', 'rb'))
 
 
 
